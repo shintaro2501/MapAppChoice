@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マップ選択ページ</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .btn {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn-google {
+            background-color: #4285F4;
+            color: white;
+        }
+        .btn-google:hover {
+            background-color: #357ABD;
+        }
+        .btn-apple {
+            background-color: #FF3B30; /* Appleの赤色 */
+            color: white;
+        }
+        .btn-apple:hover {
+            background-color: #D32F2F; /* 濃い赤色 */
+        }
+    </style>
+</head>
+<body>
+    <h2>トヨタレンタカー広島新幹線口店【受付カウンター】の場所を確認するアプリを選択してください</h2>
+    <a href="https://www.google.com/maps?q=34.397547,132.477640" class="btn btn-google">Googleマップで開く</a>
+    <a href="maps://?ll=34.397557,132.477694&q=トヨタレンタカー広島新幹線口店【受付カウンター】" class="btn btn-apple">Appleマップで開く</a>
+</body>
+</html>
